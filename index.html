@@ -1,0 +1,193 @@
+<!DOCTYPE html> <!--saber que versión de html estamos usando,es una declaración , no es una etiqueta -->
+<html lang="es"><!--es el elemento raiz, los demas elementos estarán contenidos aquí --> <!--agregamos el atributo LANG, para especificar idioma .-->
+
+
+
+  <head><!--No forman la estucuta principal, archivos externos, JS, CSS, PERSONALIZAR TITULO -->
+<title>App de Gatitos</title> <!--Optimizacion en los motores de búsqueda Serch Engine Optimization-->
+<style> 
+h1 {
+  color: blueviolet;
+}
+</style>
+ 
+  </head> <!--Van los meta datos, detrás de escena en el head -->
+
+
+
+  <body><!--DEFINIMOS LA ESTRUCTURA PRINCIPAL de la página -->
+    <h1>APLICACIÓN DE GATITOS</h1> <!--ENCABEZADOS,ó Título "HEADING"-->
+    <h1>APP 2</h1>
+    <h1>APP 3</h1>
+    <main> <!--Irá el contenido principal de mi página, en esta etiqueta --> 
+
+       <h3> Imágenes de gatos: </h3> <!--Etiqueta del párrafo -->
+       <!--TODO: (Lo que falta) Agregar imágenes de gatos-->
+        
+       <p> Haz click aquí para ver <a href="https://buscafuska.com/meet_your_match?gclid=CjwKCAiAjPyfBhBMEiwAB2CCIqjfEmg21twfUmnrWQ7auH0KuqFrueffFpnA-paAazbAO9MlPX3o4BoCycAQAvD_BwE" target="_blank" rel="noopener noreferrer "> imágenes de gatos </a> </p> <!--Etiqueta "a" , sirve para los ENLACES  "a" = anchor . -->
+       <!--atributo href , para indicar donde mandar el enlace -destino del enlace-->
+       <!-- target blank , abrir el enlace en un nueva pestaña -->
+       <!-- rel , previene el Tabbnabing , la pestaña se reemplace , sea una brecha de seguridad-->
+
+
+       <!--ENLACES A SECCIONES INTERNAS -->
+
+       <a href="#parrafo-1">PÁRRAFO 1</a> <!--a= enlace --> <!--href="#", crear  el enlace , dejarlo indicado -->
+       <a href="#" target="_blank">PÁRRAFO 2</a>
+       <a href="#parrafo-3">PÁRRAFO 3</a>
+       <a href="#parrafo-4">PÁRRAFO 4</a>
+       <a href="#parrafo-5">PÁRRAFO 5</a>
+      <!--DEAD LINKS -->
+      <!--ejemplo con lo del enlace del párrafo 2 , en imágenes también aplica , es util -->
+
+
+            
+       
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmz7kR1jjxHpWBTNWuH1aFfZH6h7hh-ZRwIQ&usqp=CAU" alt="Información de adopciones "> <!--ATRIBUTO ----SRC----= SOURCE , ----ALT----, lector  de pantalla, si falla internet, ALTERNATIVA EN TEXTO DE LA IMAGEN  -->
+
+
+
+    <a href="https://www.ssc.cdmx.gob.mx/agrupamientos/brigada-de-vigilancia-animal" target="_blank" rel="noopener noreferrer"><img src="cdmxadopta.jpg"></a> <!--En la misma carpeta -->  <!--convertir una imagen en enlace, rodeamos con la etiqueta  "a" -->
+
+
+
+    <img src="imagenes/hipoalergenicos.jpg"> <!--La imagen está en una carpeta diferente -->
+
+    <!--LISTAS NO ORDENADAS : Referirá a Viñetas-->
+
+  <hr> <!--PONER LINEA HORIZONTAL , HORIZONTAL RULE, separar párrafos -->
+
+    <h3>Listas de gatos</h3> <!--CREAMOS UN ENCABEZADO-->
+
+
+
+    <div> <!--div ,es un contenedor, para añadirle despues estilo en CSS-->
+
+
+
+    <p>Cosas que los gatos <em>aman</em> </p> <!--em  , para letra en cursiva -->
+
+    <ul>
+        
+       <li> Menta gatuna</li> <!--List Item - "elemento de la lista "-->
+       <li> Rayos láser </li>
+       <li> Lasaña </li>    
+
+    </ul> <!--Unordened List-->
+     
+    <!--LISTAS ORDENADAS -->
+
+    <p>Cosas que los gatos     <strong>odian</strong> </p> <!--Etiqueta Strong , indicar que el texto es iportante, -->
+     
+     <ol> 
+      <li> <s> Pulgas </s>   </li> <!--Texto tachedo ,  "S"-->
+      <li>truenos     </li>
+      <li>otros gatos </li>
+
+
+
+
+     </ol> <!--Ordered List -->
+
+    </div> <!--Hasta acá cerramos el Div -->
+
+
+
+       <h3 id="parrafo-1"> PÁRRAFO 1 </h3> <!--Añadimos atributo id  , para asignar el enlace -->
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eveniet esse harum officia fugiat velit neque aspernatur maiores quam perspiciatis nesciunt corrupti blanditiis, nisi quisquam consectetur aliquam facere culpa et.</p>
+       
+       <h3 id="#"> PÁRRAFO 2 </h3>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti nulla est vero rerum, consequuntur facilis culpa fugiat corporis earum provident quasi expedita quo, unde neque quibusdam omnis nemo non!</p>
+
+       <h3 id="parrafo-3"> PÁRRAFO 3 </h3>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quis qui veritatis quasi consectetur! Mollitia nesciunt deserunt nobis porro laborum numquam? Officia tempore dolore mollitia dolorem cum sed excepturi quis!</p>
+
+       <h3 id="parrafo-4"> PÁRRAFO 4 </h3>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maxime voluptatem voluptate quibusdam quisquam, distinctio vitae fugiat aperiam quod voluptatibus excepturi rem dicta modi repellat saepe aliquid quidem hic labore!</p>
+
+      <h3 id="parrafo-5"> PÁRRAFO 5 </h3>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit qui, ipsam voluptatum ab vel deleniti quasi magni non tempore esse sint libero blanditiis aut, et praesentium distinctio natus temporibus recusandae?</p>
+   
+
+
+
+    <img src="imagenes/adopciones.jpeg">
+
+    <br> 
+   
+    <!--CREACIÓN DE FORMULARIOS -->
+     
+    <form action="/enviarrespuesta"> <!--eN FORM , va el destino a donde queremos mandar la información  usamos atributo "action", action=direccin en servidor a donde lo mandaremos -->
+
+    
+
+ <!-- CASILLAS DE VERIFICACIÓN , se les denomina "Check-Box"--> <!--Label, lo usamos para mejorar la experiencia de marcado, al sobreponer en el texto, se puede dar click y marcar la opción -->
+
+ <!--En Label va el for y lleva su  ID -->
+
+  
+ <!--OTRA FORMA DE LEER EL INPUT, SERÍA QUE LO MOVIÉRAMOS COMO PARTE DE LA ETIQUETA LABEL-->
+    <label>
+      <input type="checkbox"
+       value="Cariñoso" 
+       name="personalidad" 
+       checked> 
+       Cariñoso
+      </label>
+
+  <br>   
+
+    <label><input type="checkbox" value="Perezoso"   name="personalidad" checked> Perezoso</label>
+
+ <br>
+
+    <label><input type="checkbox" value="Energético" name="personalidad" checked> Energético</label>
+ 
+
+ <br>
+
+ <!--Añadimos atributo   "name" a input, para agruparlos en un grupo. -->
+ <!--checked, lo añadimos también a input , para marcar por defecto -->
+ <!--Añadimos Value, para que el servidor asocie el valor al grupo que formamos con el "name",va después de type-->
+
+
+ <!--TEXTO Y BOTÓN ENVIAR-->
+
+ <input type="text" placeholder="URL de la foto de tu gato" required> <!--Input, sirve para obtener una respuesta del usuario --> <!--Placeholder "TEXTO MARCADOR DE POSICIÓN "--> <!--Campo obligatorio "required"-->
+
+ <button type="submit">ENVIAR </button>
+  
+ <br> <!--Line Break "Salto de línea "-->
+
+   <!--BOTONES DE RADIO, Casillas de Verificación "Check Box "-->
+
+
+  
+<label for="Interior"><input id="Interior" type="radio" value="Interior" name="Interior-Exterior" checked>Interior </label>  <!--CON label, SIRVE PARA seleccionar la opción, si sobrepasamos con el mouse, el texto. -->  <!--Label va un For , con una id, conecta esa opción con la ETIQUETA -->
+
+ <br> <!--Salto de línea , viene de "BREAK ", romper o "separar" , también puede ir alado de label-->
+
+  <label for="Exterior"> <input id="Exterior"type="radio" value="Exterior" name="Interior-Exterior" checked>Exterior</label>
+  
+   
+   <!--GRUPO DE BOTONES DE RADIO --> <!--PERMITIR QUE SOLO SE MARQUE UNA OPCIÓN , Agregamos el atributo "name", despues de type radio , van a pertenecer a este mismo G R U P O , para elegir a U N O  -->
+
+
+    </form>
+
+    </main>
+   <!--El pie de página va después de Main , porque no forma parte del contenido principal de la página -->
+
+    <footer> <!--En pie de pagina añadimos parrafo y un enlace con su Href para especificar donde, etiqueta small, hacer el pie de pagina mas pequeño -->
+
+      <p><small> derechos de autor - <a href="https://www.freecodecamp.org/">freecodecamp.org</a></small></p></footer>
+   
+  </body>
+
+</html>
